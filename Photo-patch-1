@@ -1,0 +1,13 @@
+<ion-header> 
+  <ion-toolbar> 
+    <ion-title> 
+      IONIC CAPACITOR DEMO 
+    </ion-title> 
+  </ion-toolbar> 
+</ion-header> 
+<ion-content padding = ""> 
+  <img [src] = "prisPicture"> 
+  <button ion-button = "" (click) = "takePicture ()"> 
+   PRENDRE UNE PHOTO 
+  </button> 
+</ion-content>
